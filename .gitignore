@@ -1,0 +1,23 @@
+# Rust
+/target
+/pkg
+*.rs.bk
+
+# wasm-pack build artifacts
+*.wasm
+*.lock
+*.js
+*.ts
+*.d.ts
+
+# Node
+/node_modules
+
+# Next.js
+.next/
+out/
+
+# OS and editor
+.DS_Store
+.idea/
+.vscode/
