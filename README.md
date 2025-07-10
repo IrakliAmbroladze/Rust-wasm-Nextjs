@@ -1,1 +1,1 @@
-# Ryst-wasm-Nextjs test app
+# Rust-wasm-Nextjs test app
