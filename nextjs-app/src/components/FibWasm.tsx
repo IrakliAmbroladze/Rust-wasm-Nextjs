@@ -33,11 +33,14 @@ export default function FibWasm() {
   return (
     <div className="max-w-xl mx-auto mt-10 p-6 bg-white shadow-md rounded-xl border border-gray-200">
       <h2 className="text-2xl font-bold text-center mb-4 text-indigo-600">
-        🧮 Rust + Wasm + Next.js Fibonacci
+        🧮 Rust + wasm + Next.js Fibonacci
       </h2>
-      <p className="text-gray-700 text-center mb-6">
-        This is a Fibonacci calculator powered by Rust compiled to WebAssembly.
-      </p>
+      <div className="text-gray-700 text-center mb-6">
+        <div className="font-bold">W E L C O M E</div>
+        <div>This is a Fibonacci calculator powered</div>
+        <div> by </div>
+        <div>Rust compiled to WebAssembly.</div>
+      </div>
 
       <div className="mb-4">
         <label
