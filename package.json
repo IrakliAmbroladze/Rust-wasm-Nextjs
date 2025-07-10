@@ -1,0 +1,20 @@
+{
+  "name": "rust-wasm-nextjs",
+  "version": "1.0.0",
+  "description": "Rust-Nextjs-test-project",
+  "homepage": "https://github.com/IrakliAmbroladze/Rust-wasm-Nextjs#readme",
+  "bugs": {
+    "url": "https://github.com/IrakliAmbroladze/Rust-wasm-Nextjs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IrakliAmbroladze/Rust-wasm-Nextjs.git"
+  },
+  "license": "ISC",
+  "author": "Irakli Ambroladze",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
