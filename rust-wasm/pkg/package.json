@@ -1,0 +1,17 @@
+{
+  "name": "fib_wasm",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "fib_wasm_bg.wasm",
+    "fib_wasm.js",
+    "fib_wasm_bg.js",
+    "fib_wasm.d.ts"
+  ],
+  "main": "fib_wasm.js",
+  "types": "fib_wasm.d.ts",
+  "sideEffects": [
+    "./fib_wasm.js",
+    "./snippets/*"
+  ]
+}

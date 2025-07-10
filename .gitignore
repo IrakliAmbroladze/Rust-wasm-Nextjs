@@ -1,14 +1,16 @@
 # Rust
-/target
-/pkg
+/rust-wasm/fib_wasm
 *.rs.bk
 
-# wasm-pack build artifacts
-*.wasm
-*.lock
-*.js
-*.ts
-*.d.ts
+# Ignore Rust build artifacts in specific folders, not globally
+
+# For example, only ignore .wasm in target folder
+/target/
+/fib_wasm/pkg/*.wasm
+/fib_wasm/pkg/*.js
+/fib_wasm/pkg/*.ts
+/fib_wasm/pkg/*.d.ts
+
 
 # Node
 /node_modules
